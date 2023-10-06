@@ -29,8 +29,9 @@ class CustomTextFormField extends StatelessWidget {
           validator: validate,
           obscureText: isPassword,
           decoration: InputDecoration(
-            prefixIcon: Icon(Icons.access_alarm),
-            suffixIcon: Icon(Icons.access_alarm, color: Colors.blue),
+            prefixIcon: Icon(Icons.access_alarm), // 입력칸 앞에 아이콘
+            suffixIcon:
+                Icon(Icons.access_alarm, color: Colors.blue), // 입력칸 뒤에 아이콘
             hintText: "Enter ${text}",
             enabledBorder: OutlineInputBorder(
               // enabledBorder = 디폴트 Border
