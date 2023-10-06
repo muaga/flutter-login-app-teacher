@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
     return ThemeData(
       textButtonTheme: TextButtonThemeData(
         style: TextButton.styleFrom(
-          // 해당 TextButton의 기존 디자인을 조금 수정하는 것
+          // 본인버튼.styleFrom : 해당 TextButton의 기존 디자인을 조금 수정하는 것
           backgroundColor: Colors.black,
           foregroundColor: Colors.white,
           shape: RoundedRectangleBorder(
